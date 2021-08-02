@@ -13,5 +13,4 @@ for (let i = 0; i < scores.length; i++) {
   count += number;
 }
 const average = count / scores.length;
-console.log(count);
 const avg = alert("Average score is " + average);
