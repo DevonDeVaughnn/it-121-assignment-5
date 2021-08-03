@@ -1,7 +1,7 @@
 let scores = [];
 let scoreEntered;
 let count = 0;
-prompt("Enter score\nEnter 999 to end entries");
+
 while (scoreEntered != 999) {
   scoreEntered = prompt("Enter score\nEnter 999 to end entries");
   scores.push(scoreEntered);
